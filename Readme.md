@@ -2,7 +2,7 @@
 
 #### Requirements:
 ```
-pip install matplolib
+pip install matplotlib
 ```
 
 

@@ -7,6 +7,7 @@ pip install matplotlib
 
 
 Input: A list with 1000 distinct numbers in the range of 1-1000.
+
 Output: A sorted list and the time the sorting algorithm used.
 
 ### Bubble sort

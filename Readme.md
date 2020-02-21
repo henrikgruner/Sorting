@@ -85,3 +85,11 @@ WC O(n^2) -> pivot is largest or smallest value in list
 AC O(nlogn)
 BC O(nlogn)
 
+#### How does it work
+Basic idea, choose an item in the list as a pivot: 
+Split the list in two where one is bigger than the pivot, and vice versa.
+Repeat recursivly until the size of the lists are two. Merge all the sorted lists and return.
+
+
+
+

@@ -82,7 +82,9 @@ merge part:
 ### Quicksort
 Divide and conquer algorithm
 WC O(n^2) -> pivot is largest or smallest value in list
+
 AC O(nlogn)
+
 BC O(nlogn)
 
 #### How does it work

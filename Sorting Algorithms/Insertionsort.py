@@ -10,10 +10,10 @@ import time
 import csv
 import Numberimporter
 import unicodecsv
+# List with 1000 distinct numbers from value 1-1000 randomly sorted
+
 
 mydata = Numberimporter.NUMBERS
-
-# bubble sort?
 
 
 def insertionsort(list):

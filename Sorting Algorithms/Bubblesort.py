@@ -1,29 +1,25 @@
 import Numberimporter
 import matplotlib.pyplot as plt
 import time
+# List with 1000 distinct numbers from value 1-1000 randomly sorted
 mydata = Numberimporter.NUMBERS
 
-# bubble sort?
 
-
-def insertionsort(list):
-    start_time = time.time()
-    # Iterates over the whole list
-    for i in range(0, len(list)):
-        j = i
-        while j > 0:
-            if(list[j-1] > list[j]):
-                list[j], list[j-1] = list[j-1], list[j]
-            j -= 1
-    end_time = time.time() - start_time
-
-    print("\n", end_time, ' Seconds')
-    return list, end_time
+def bubblesort(list):
+    start = time.time()
+    n = len(list)
+    for i in range(0, n):
+        for j in range(0, n-1):
+            if list[j+1] < list[j]:
+                list[j], list[j+1] = list[j+1], list[j]
+    end = time.time() - start
+    return list, end
 
 
 plt.plot(mydata)
-
-lol = insertionsort(mydata)
+lol = bubblesort(mydata)
 plt.plot(lol[0])
-plt.title(lol[1])
+
+
+plt.title('Bubblesort: ' + str(round(lol[1], 5)) + ' Seconds')
 plt.show()

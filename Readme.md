@@ -113,7 +113,7 @@ Average case: O(n^2) comparisons
 O(n^2) comparisons
 
 #### How does it work
-Keeps to lists, one sorted and one unsorted:
+Keeps two lists, one sorted and one unsorted:
 
 
 

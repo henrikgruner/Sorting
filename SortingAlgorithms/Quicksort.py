@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import time
 import random
 
-mydata = random.sample(range(1000000), 1000000)
+mydata = random.sample(range(1000), 1000)
 
 
 def quicksort(list):

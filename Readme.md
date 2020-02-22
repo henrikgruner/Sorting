@@ -5,8 +5,12 @@ TODO
 -implement bucket sort
 -implement heap sort
 -implement counting sort
+-implement shell sort
 
-create the visualizations
+consider 
+bogo-sort for lols 
+
+-create the visualizations
 
 #### Requirements:
 ```

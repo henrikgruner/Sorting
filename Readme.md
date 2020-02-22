@@ -93,5 +93,16 @@ Split the list in two where one is bigger than the pivot, and vice versa.
 Repeat recursivly until the size of the lists are two. Merge all the sorted lists and return.
 
 
+### Selection sort
+Really bad algorithm
+
+Worst case: O(n^2) comparisons
+Average case: O(n^2) comparisons
+O(n^2) comparisons
+
+#### How does it work
+Keeps to lists, one sorted and one unsorted:
+
+
 
 

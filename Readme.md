@@ -1,5 +1,13 @@
 ## Sorting algorithms 
 
+TODO
+-implement Radix sort
+-implement bucket sort
+-implement heap sort
+-implement counting sort
+
+create the visualizations
+
 #### Requirements:
 ```
 pip install matplotlib
